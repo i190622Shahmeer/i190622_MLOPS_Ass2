@@ -63,7 +63,7 @@ def version_and_push_data():
 # DAG configuration
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2023, 5, 12),
+    'start_date': datetime(2024, 5, 12),
     'retries': 1,
     'retry_delay': timedelta(seconds=20),
 }
